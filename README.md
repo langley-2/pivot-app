@@ -33,6 +33,14 @@ We all waste time sometimes. Pivot doesn’t try to stop that — it just helps 
 - Targeting iOS
 - UI will probably be SwiftUI
 
+## Project structure
+
+Swift sources are under `pivot/` following an MVVM layout:
+
+- `pivot/Models` – data models
+- `pivot/ViewModels` – observable view models
+- `pivot/Views` – SwiftUI views
+
 ## Status
 
 Very early stages. Lots to build.
